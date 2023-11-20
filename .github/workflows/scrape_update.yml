@@ -26,7 +26,4 @@ jobs:
       env:
         GSPREAD_CREDENTIALS: ${{ secrets.GSPREAD_CREDENTIALS }}
         GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}  # Assuming you also have this secret set
-      
 
-    - name: Any additional steps
-      run: <additional_commands>
