@@ -3,6 +3,7 @@ name: Run Web Scraping
 on:
   schedule:
     - cron: '0 0 * * 0'  # This schedule is for running every Sunday at midnight
+  workflow_dispatch:
 
 jobs:
   scrape_and_update:
